@@ -38,7 +38,7 @@ html, body {
  	font-family: 'Lato', sans-serif;
  	text-align: center;
  	vertical-align: middle;
- 	color: white; 	
+ 	/*color: white;*/ 	
     margin: 0;
     height: 100%;
     overflow: hidden;
