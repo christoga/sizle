@@ -1,11 +1,11 @@
-# Midas
+# Sizle
 
-Simple iframe browser using jQuery.
+Size styler
 
 ## Live Demo
 
-[Click here for a live demo.](http://christoga.github.io/midas)
+http://christoga.github.io/sizle
 
 ## License
 
-Midas is licensed under [MIT](https://github.com/christoga/midas/blob/master/LICENSE)
+Sizle is licensed under [MIT](https://github.com/christoga/sizle/blob/master/LICENSE)
