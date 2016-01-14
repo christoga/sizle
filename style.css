@@ -1,0 +1,47 @@
+/*/*body {
+	text-align: center;
+	background: #00BFA5;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+html, body {
+      background-color: #333231;
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+    }
+
+    body:after {
+      content: "";
+      width: 0;
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    body {
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    */
+ /*!
+ * Midas 1.0 (http://christoga.github.io/midas)
+ * Copyright 2015 Andre Christoga.
+ * Licensed under MIT (https://github.com/christoga/midas/blob/master/LICENSE)
+ */
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	color: white;
+ 	background-color: #333231;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    /*display: inline-block;*/
+ }
