@@ -44,3 +44,9 @@ html, body {
     overflow: hidden;
     /*display: inline-block;*/
  }
+#shape {
+  border:1px solid #000000;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
