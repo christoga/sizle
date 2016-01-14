@@ -21,19 +21,22 @@
       <br>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="width">
-        <label class="mdl-textfield__label" for="link">Width</label>        
+        <label class="mdl-textfield__label" for="width">Width</label>        
       </div><br>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="height">
-        <label class="mdl-textfield__label" for="link">Height</label>
+        <label class="mdl-textfield__label" for="height">Height</label>
       </div><br><br>
   <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">submit</a>
 			<script>
 				$("#submit").on('click', function(event) {
 					event.preventDefault();
-					data = $("#link").val();
-					$("#frame").attr({
-						src: "http://"+data});
+					width = $("#width").val();
+					height = $("#height").val();
+					$("#shape").attr({
+						width: width
+						height: height
+					});
 				});
 			</script>
 		</div>
