@@ -1,4 +1,4 @@
- body { 	
+ body {
  	text-align: center;
  	vertical-align: middle;
   margin: 0;
@@ -6,6 +6,10 @@
   overflow: hidden;
  }
 #shape {
-  border:1px solid #000000;
+  margin-top: 5px;
+  border-color: #009688;
+  border-radius: .3rem;
+  border-width: 7px;
+  border-style: solid;
   text-align: center;
 }
