@@ -1,10 +1,9 @@
- body {
- 	font-family: 'Lato', sans-serif;
+ body { 	
  	text-align: center;
  	vertical-align: middle;
   margin: 0;
   height: 100%;
-  overflow: hidden;  
+  overflow: hidden;
  }
 #shape {
   border:1px solid #000000;
