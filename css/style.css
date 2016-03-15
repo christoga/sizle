@@ -1,0 +1,20 @@
+/*
+* Sizle
+* Scale CSS Size - Size Styler
+* Licensed under MIT.
+*/
+ body {
+ 	text-align: center;
+ 	vertical-align: middle;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+ }
+#shape {
+  margin-top: 5px;
+  border-color: #009688;
+  border-radius: .3rem;
+  border-width: 7px;
+  border-style: solid;
+  text-align: center;
+}

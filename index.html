@@ -1,46 +1,40 @@
 <!DOCTYPE html>
  <html>
 	<head>
+    <!-- Meta -->
 	  <meta charset="utf-8">
-	  <meta name="keywords" content="midas, html, html5, php, iframe">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	  <meta name="description" content="Simple Iframe using jQuery.">
+	  <meta name="description" content="Scale CSS Size - Size Styler">
 	  <meta name="author" content="Andre Christoga">
-	  <title>Midas</title>
-	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <title>Sizle</title>
+    <!-- Costum -->
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.red-blue.min.css" />
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="http://christoga.github.io/css/bootstrap.css">
-	  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body align="center">
-		<div class="content" >
-			<!-- <iframe id="frame" width="500" height="500"></iframe> --> <center><canvas id="shape" width="200" height="100"></div></center>
+		<div class="content" align="center">
+      <!-- Main Canvas -->
+			<canvas id="shape" width="200" height="100"></canvas>
       <br>
+      <!-- Width input -->
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="width" pattern="-?[0-9]*(\.[0-9]+)?">
-        <label class="mdl-textfield__label" for="width">Width</label>   
-        <span class="mdl-textfield__error">Input is not a number!</span>     
+        <input class="mdl-textfield__input" type="number" id="width">
+        <label class="mdl-textfield__label" for="width">Width</label>
       </div><br>
+      <!-- Height input -->
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="height" pattern="-?[0-9]*(\.[0-9]+)?">
+        <input class="mdl-textfield__input" type="number" id="height">
         <label class="mdl-textfield__label" for="height">Height</label>
-        <span class="mdl-textfield__error">Input is not a number!</span>
       </div><br><br>
-  <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">submit</a>
-			<script>
-				$("#submit").on('click', function(event) {
-					event.preventDefault();
-					width = $("#width").val();
-					height = $("#height").val();
-					$("#shape").attr({
-						width: width
-						height: height
-					});
-				});
-			</script>
+      <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">submit</a>
+      <!-- Material Design Lite -->
+      <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+      <!-- jQuery -->
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Costum -->
+      <script src="js/main.js"></script>
 		</div>
 	</body>
 </html>
